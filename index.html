@@ -80,7 +80,10 @@
        
         <section id="reservation" class="reservation container">
             <h2>Réservation</h2>
-            <form id="resForm" class="res-form" action="https://formsubmit.co/elyse0aurore@gmail.com" method="post" >
+            <form id="resForm" class="res-form" action="https://formsubmit.co/elyse0aurore@gmail.com" method="POST" >
+                <input type="hidden" name="_subject" value="Nouvelle réservation Le Daishi du Goût">
+                <input type="hidden" name="_captcha" value="false">
+                <input type="hidden" name="_template" value="table">
                 <div class="row">
                     <input type="text" name="name" placeholder="Nom" required>
                     <input type="tel" name="phone" placeholder="Téléphone" required>
